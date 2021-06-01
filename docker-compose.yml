@@ -1,0 +1,10 @@
+version: "3.1"
+services:
+    scraper:
+        restart: always
+        build: .
+        container_name: spiderWhale
+        # volumes: 
+        #     - my-vol
+        # ports:
+        #     - "8000:8000"
